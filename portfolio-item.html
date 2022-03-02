@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>DevFreddy Portfolio Website</title>
+    <title>DevFreddy Portfolio Items</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
@@ -22,10 +22,10 @@
         </button>
         <nav class="nav">
             <ul class="nav__list">
-                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#experience" class="nav__link">My Experience</a></li>
-                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
-                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#experience" class="nav__link">My Experience</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
             </ul>
         </nav>
     </header>
@@ -34,47 +34,86 @@
     <!--Introduction-->
     <section class="intro">
         <h1 class="section__title section__title--intro">
-             Project Name: <strong>Coinstop</strong>
+            Project Name: <strong>Coinstop</strong>
         </h1>
-        <p class="section__subtitle section__subtitle--intro">Search your Favorite Cryptro</p>
-        <img src="img/dev92.jpg" alt="" class="intro__img">
+        <p class="section__subtitle section__subtitle--intro">Search your favorite crypto</p>
+        <img src="img/coinstop.png" alt="" class="intro__img">
     </section>
 
-  
+
     <div class="portfolio-item-individual">
-        <p>Inspired by cryptocurrency, this web application serves as an information 
-            search tool using JavaScript, jQuery, HTML5, and CSS3 that consumed a 
-            REST API to send data to the user in the form of names, locations, and 
-            images. This was my first project as a developer that focused on AJAX 
+        <p>Inspired by cryptocurrency, this web application serves as an information
+            search tool using JavaScript, jQuery, HTML5, and CSS3 that consumed a
+            REST API to send data to the user in the form of names, locations, and
+            images. This was my first project as a developer that focused on AJAX
             requests and API manipulation above all else.</p>
-        <img src="img/coinstop2.png" alt="">
-        <p></p>
-        <p></p>
-    </div>
-    <!--Footer-->
 
-    <footer class="footer">
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                Project Name: <strong>ValleyFC</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Soccer club player tracker</p>
+            <img src="img/valleyfc3.png" alt="" class="intro__img">
+        </section>
 
-        <a href="mailto:freddy.vences@me.com" class="footer__link">freddy.vences@me.com</a>
-        <ul class="social-list">
-            <li class="social-list__item"><a class="social-list__link" href="https://github.com/fvences92"><i
-                        class="fab fa-github"></i>
-                </a>
-            </li>
-            <li class="social-list__item"><a class="social-list__link"
-                    href="https://www.linkedin.com/in/freddyvences/"><i class="fab fa-linkedin"></i>
-                </a>
-            </li>
-            <li class="social-list__item"><a class="social-list__link" href="https://twitter.com/cryptodev92"><i
-                        class="fab fa-twitter"></i></a>
-            </li>
-            <li class="social-list__item"><a class="social-list__link"
-                    href="https://docs.google.com/document/d/1CwwOk_5aIOdeNAcmN-aQSNo5s69MhNoOf1HQSWkG5F0/edit?usp=sharing"><i
-                        class="far fa-address-card"></i></a>
-            </li>
-        </ul>
-    </footer>
-    <script src="/js/index.js"></script>
+
+        <div class="portfolio-item-individual">
+            <p>This application is a full-stack Django application inspired by my soccer club Valley FC.
+                It persist of data in PostgreSQL, it autheticates users using Django's built-in authentication
+                and it also implements authorization by restricting access to creation, updating, and deletion
+                of sources. It serves a tracking tool and stat record keeper for a sports club. </p>
+
+
+            <section class="intro">
+                <h1 class="section__title section__title--intro">
+                    Project Name: <strong>MERNu</strong>
+                </h1>
+                <p class="section__subtitle section__subtitle--intro">Create your own digital menu</p>
+                <img src="img/mernu1.png" alt="" class="intro__img">
+            </section>
+
+
+            <div class="portfolio-item-individual">
+                <p>MERNu is a working full-stack, single-page application hosted on Heroku. The appication incorporates
+                    technologies of the MERN-stack including MongoDB/Mongoose, Express, React, & Node. This application gives
+                    restaurateurs the opportunity to create their own digitial menu online.
+                </p>
+                <section class="intro">
+                    <h1 class="section__title section__title--intro">
+                        Project Name: <strong>Digiwallet</strong>
+                    </h1>
+                    <p class="section__subtitle section__subtitle--intro">Track Your newest investment</p>
+                    <img src="img/digiwallet3.png" alt="" class="intro__img">
+                </section>
+                <p>Built as a full CRUD web application using JavaScript, CSS3, HTML5, MongoDB,
+                    Express.js, Node.js, and responsive design elements. Digiwallet allows you
+                    to track personal investment accounts from crypto to stocks. </p>
+                <p></p>
+            </div>
+            <!--Footer-->
+
+            <footer class="footer">
+
+                <a href="mailto:freddy.vences@me.com" class="footer__link">freddy.vences@me.com</a>
+                <ul class="social-list">
+                    <li class="social-list__item"><a class="social-list__link" href="https://github.com/fvences92"><i
+                                class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item"><a class="social-list__link"
+                            href="https://www.linkedin.com/in/freddyvences/"><i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item"><a class="social-list__link" href="https://twitter.com/cryptodev92"><i
+                                class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="social-list__item"><a class="social-list__link"
+                            href="https://docs.google.com/document/d/1CwwOk_5aIOdeNAcmN-aQSNo5s69MhNoOf1HQSWkG5F0/edit?usp=sharing"><i
+                                class="far fa-address-card"></i></a>
+                    </li>
+                </ul>
+            </footer>
+            <script src="/js/index.js"></script>
 </body>
 
 </html>

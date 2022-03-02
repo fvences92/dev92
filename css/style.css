@@ -13,7 +13,7 @@
 
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-accent: #46ade9;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -65,13 +65,14 @@ strong { font-weight: var(--fw-bold);}
 
 
 .btn {
-    display: inline-block;
-    padding: .5em 2.5em;
-    background: var(--clr-accent);
+    display: block;
+    text-align: center;
+    padding: .5em .5em;
+    background: orange;
     color: var(--clr-dark);
     text-decoration: none;
     cursor: pointer;
-    font-size: .8rem;
+    font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: var(--fw-bold);
@@ -137,7 +138,7 @@ header {
 
 .nav {
     position: fixed;
-    background: var(--clr-dark);
+    background: rgb(0, 0, 0);;
     color: var(--clr-light);
     top: 0;
     bottom: 0;
@@ -283,12 +284,13 @@ header {
     background-size: cover;
     background-blend-mode: multiply;
     color: var(--clr-light);
-    text-align: center;
+    text-align: start;
 }
 
 .section__title--experience {
     color: var(--clr-accent);
     position: relative;
+    text-align: center;
 }
 
 .section__title--experience::after {
@@ -364,7 +366,7 @@ header {
 
 /* My work */
 .my-work {
-    background-color: var(--clr-dark);
+    background: rgb(0, 0, 0);
     color: var(--clr-light);
     text-align: center;
 }
@@ -400,7 +402,7 @@ header {
 /* Footer */
 
 .footer {
-    background: #111;
+    background: rgb(0, 0, 0);
     color: var(--clr-accent);
     text-align: center;
     padding: 2.5em 0;
@@ -412,19 +414,16 @@ header {
     text-decoration: none;
 }
 
-footer_link {
+.footer_link {
     font-weight: var(--fw-bold);
+    color: orange;
 }
 
 .footer__link:hover,
 .social-list__link:hover {
-    opacity:-7;
-
-}
-
-.footer__link:hover {
     text-decoration: underline;
 }
+
 
 .social-list {
     list-style: none;
@@ -440,4 +439,23 @@ footer_link {
 
 .social-list__link {
     padding: .5em;
+}
+
+.portfolio__item-individual {
+    padding: 0 2em 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;;
+    
+}
+
+.portfolio__item-individual p {
+    max-width: 800px;
+}
+
+.portfolio-item__img {
+    margin-left: 2em;
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
 }
