@@ -17,7 +17,7 @@ Version 1.0
 ![Post-Search](/img/projects.png)
 
  ## Getting Started
- [click here](dev92portfolio.netlify.app) to deploy the application!
+ [click here](https://dev92portfolio.netlify.app/) to deploy the application!
 
  ## Future Enhancements
  * Improved Funcitionality with NavBar
