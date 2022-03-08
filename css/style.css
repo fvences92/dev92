@@ -260,7 +260,7 @@ header {
 
     .intro__img {
         grid-area: img;
-        min-width: 250px;
+        min-width: 275px;
         position: relative;
         z-index: 2;
     }
@@ -310,6 +310,7 @@ header {
 .experience {
     max-width: 500px;
     margin: 0 auto;
+    font-size: 15px;
 }
 @media (min-width: 800px) {
     .experiences{
@@ -330,6 +331,9 @@ header {
 
 .about-me__img {
     box-shadow: var(--bs);
+    grid-area: img;
+    min-width: 300px;
+    position: relative;
 }
 
 @media (min-width: 600px) {
@@ -380,10 +384,10 @@ header {
 
 .portfolio__item {
     background: var(--clr-dark);
-    overflow: hidden;    
+    overflow: hidden; 
 }
 
-.portfolio__img {
+.portfolio__img { 
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
@@ -406,7 +410,7 @@ header {
     background: var(--clr-accent);
     color: black;
     text-align: center;
-    padding: 2.5em 0;
+    padding: 1em 0;
     font-size: var(--fs-h3);
 }
 
